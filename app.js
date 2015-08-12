@@ -8,7 +8,7 @@ $(document).ready(function(){
 				if (number >= 1);
 				// check if number is less than or equal to 100
 				if (number <= 100) {
-		  		list(number);
+		  			fizzbuzz(number);
 		  		} 
 
 		  		else {
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 	/*** This function pushes the results to the page ***/
  
- 	var list = function (number) {
+ 	var fizzbuzz = function (number) {
 		for (var i = 1; i <= number; i++) {
 
 			// Check if 'i' is divisible by both 3 and 5, print 'fizz buzz!'
