@@ -1,6 +1,7 @@
 $(document).ready(function(){
-	$('#submit').on('click', function(){
-		var number = $('#numberValue').val();
+	$('#submit').on('click', function(event){
+        event.preventDefault();
+		var number = $('#numberValue').val()
 
 				// check if number is "whole" integer
 				if (number % 1 == 0);
